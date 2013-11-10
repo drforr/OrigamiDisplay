@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<glade2perl-Options>
+  <app>
+    <allow_gnome>1</allow_gnome>
+    <author>Jeff &lt;jgoff@localhost.localdomain&gt;</author>
+    <copying># Unspecified copying policy, please contact the author
+#</copying>
+    <date>Tue Sep 24 22:49:12 EDT 2002</date>
+    <description>No description</description>
+    <logo>Logo.xpm</logo>
+    <name>NetDisplay</name>
+    <version>0.01</version>
+  </app>
+
+  <diag>
+    <log>/home/jgoff/Projects/NetDisplay/netdisplay.glade2perl.log</log>
+    <verbose>2</verbose>
+  </diag>
+
+  <dist>
+    <MANIFEST_SKIP>/home/jgoff/Projects/NetDisplay/MANIFEST.SKIP</MANIFEST_SKIP>
+    <Makefile_PL>/home/jgoff/Projects/NetDisplay/Makefile.PL</Makefile_PL>
+    <directory>/home/jgoff/Projects/NetDisplay</directory>
+    <spec>/home/jgoff/Projects/NetDisplay/NetDisplay.spec</spec>
+    <test_pl>/home/jgoff/Projects/NetDisplay/test.pl</test_pl>
+  </dist>
+
+  <doc>
+    <COPYING>/home/jgoff/Projects/NetDisplay/Documentation/COPYING</COPYING>
+    <Changelog>/home/jgoff/Projects/NetDisplay/Documentation/Changelog</Changelog>
+    <FAQ>/home/jgoff/Projects/NetDisplay/Documentation/FAQ</FAQ>
+    <INSTALL>/home/jgoff/Projects/NetDisplay/Documentation/INSTALL</INSTALL>
+    <NEWS>/home/jgoff/Projects/NetDisplay/Documentation/NEWS</NEWS>
+    <README>/home/jgoff/Projects/NetDisplay/Documentation/README</README>
+    <ROADMAP>/home/jgoff/Projects/NetDisplay/Documentation/ROADMAP</ROADMAP>
+    <TODO>/home/jgoff/Projects/NetDisplay/Documentation/TODO</TODO>
+    <directory>/home/jgoff/Projects/NetDisplay/Documentation</directory>
+  </doc>
+
+  <glade>
+    <directory>/home/jgoff/Projects/NetDisplay</directory>
+    <file>/home/jgoff/Projects/NetDisplay/netdisplay.glade</file>
+    <name_from>Specified as arg to Glade::PerlGenerate-&gt;Form_from_Glade_File</name_from>
+    <pixmaps_directory>/home/jgoff/Projects/NetDisplay/pixmaps</pixmaps_directory>
+    <start_directory>/home/jgoff/Projects/NetDisplay</start_directory>
+  </glade>
+
+  <glade2perl>
+    <author>Dermot Musgrove &lt;dermot.musgrove@virgin.net&gt;</author>
+    <date>Fri May  3 03:56:25 BST 2002</date>
+    <dont_show_UI>1</dont_show_UI>
+    <logo>/home/jgoff/Projects/NetDisplay/pixmaps/glade2perl_logo.xpm</logo>
+    <my_gnome_libs>1.2.13</my_gnome_libs>
+    <my_gtk_perl>20010629</my_gtk_perl>
+    <name>Glade::PerlGenerate</name>
+    <start_time>Sat Oct  5 16:06:16 EDT 2002</start_time>
+    <version>0.60</version>
+    <xml>
+      <app_defaults>Application defaults</app_defaults>
+      <base_defaults>Glade::PerlRun defaults</base_defaults>
+      <encoding>ISO-8859-1</encoding>
+      <params>DEFAULT</params>
+      <project>/home/jgoff/Projects/NetDisplay/netdisplay.glade2perl.xml</project>
+      <set_by>Glade::PerlGenerate-&gt;use_Glade_Project</set_by>
+      <site>/etc/glade2perl.xml</site>
+      <user>/home/jgoff/.glade2perl.xml</user>
+    </xml>
+
+  </glade2perl>
+
+  <source>
+    <write>1</write>
+  </source>
+
+  <test>
+    <directory>/home/jgoff/Projects/NetDisplay</directory>
+    <first_form>app1</first_form>
+    <name>NetDisplay</name>
+    <use_module>src::NetDisplay</use_module>
+  </test>
+
+  <type>glade2perl</type>
+</glade2perl-Options>

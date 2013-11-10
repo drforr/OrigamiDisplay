@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<mesh>
+  <vertices>
+    <vertex id="a"/>
+    <vertex id="b"/>
+    <vertex id="c"/>
+  </vertices>
+  <edges>
+    <edge id="ab">
+      <endpoint idref="a"/>
+      <endpoint idref="b"/>
+    </edge>
+    <edge id="bc">
+      <endpoint idref="b"/>
+      <endpoint idref="c"/>
+    </edge>
+    <edge id="ca">
+      <endpoint idref="c"/>
+      <endpoint idref="a"/>
+    </edge>
+  </edges>
+  <groups>
+  </groups>
+</mesh>

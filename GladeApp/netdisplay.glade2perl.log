@@ -1,0 +1,26 @@
+--------------------------------------------------------
+      DIAGNOSTICS - Sat Oct  5 16:06:16 EDT 2002 (locale <en_US> verbosity 2) started by Glade::PerlGenerate (version 0.60)
+    - Gtk-Perl reported version 0.7008 (CVS 20010629)
+    - gnome-libs reported version 1.2.13
+    - Creating source_directory '/home/jgoff/Projects/NetDisplay/src' in Glade::PerlGenerate->use_Glade_Project
+    - Constructing form(s) from Glade file '/home/jgoff/Projects/NetDisplay/netdisplay.glade' - Specified as arg to Glade::PerlGenerate->Form_from_Glade_File
+    - Source code will be generated for locale <en_US> Style AUTOLOAD
+    - Writing UI   source to /home/jgoff/Projects/NetDisplay/src/NetDisplayUI.pm - in Glade::PerlGenerate->write_UI
+    - Writing SIGS source to /home/jgoff/Projects/NetDisplay/src/NetDisplaySIGS.pm - in Glade::PerlGenerate->write_SIGS
+    - Writing App to /home/jgoff/Projects/NetDisplay/src/NetDisplay.pm - in Glade::PerlGenerate->write_SIGS
+    - Some of the ways to run the generated source
+	  Change directory to '/home/jgoff/Projects/NetDisplay' and then enter one of :
+	  perl -e 'use src::NetDisplay; app1->app_run'
+    - Writing App Subclass file /home/jgoff/Projects/NetDisplay/src/SubNetDisplay.pm
+	  perl -e 'use src::SubNetDisplay; Subapp1->app_run'
+    - Generating distribution file '/home/jgoff/Projects/NetDisplay/test.pl'
+-----------------------------------------------------------------------------
+      CONSISTENCY CHECKS
+    - 0 unused widget properties
+    - 0 widgets were ignored (one or more of 'Placeholder Custom GnomeDbGrid GnomeDbList GnomeDbCombo GnomeDbReport GnomeDbError GnomeDbLogin GnomeDbBrowser GnomeDbErrorDlg GnomeDbLoginDlg')
+    - 0 unpacked widgets
+-----------------------------------------------------------------------------
+    - glade2perl options saved to /home/jgoff/Projects/NetDisplay/netdisplay.glade2perl.xml
+    - glade2perl options saved to /home/jgoff/.glade2perl.xml
+      RUN COMPLETED - Sat Oct  5 16:06:21 EDT 2002 diagnostics stopped by Glade::PerlGenerate (version 0.60)
+-----------------------------------------------------------------------------

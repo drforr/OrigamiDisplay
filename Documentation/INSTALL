@@ -1,0 +1,22 @@
+How to install Glade-Perl application 'NetDisplay'
+--------------------------------------------------------------------
+
+TO INSTALL
+----------
+There is a standard Makefile.PL to handle some checks and install the package
+
+To install
+    perl Makefile.PL
+    make
+    make test
+    su
+    make install (if test was OK)
+        
+TO BUILD RPMS
+-------------
+Build the RPMs by calling eg.
+    rpm -ta NetDisplay-0.01.tar.gz
+
+
+Tue Sep 24 22:49:12 EDT 2002 - Jeff <jgoff@localhost.localdomain>
+    - version 0.01 - This file was created by Glade::PerlSource

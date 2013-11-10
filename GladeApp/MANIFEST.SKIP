@@ -1,0 +1,12 @@
+\bRCS\b
+^MANIFEST\.
+^Makefile$
+~$
+.html$
+.old$
+^blib/
+^MakeMaker-\d
+pod2html
+.bak$
+SIGS.pm
+^netdisplay.glade
